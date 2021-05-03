@@ -5,7 +5,6 @@ const rB = require('react-bootstrap');
 const cE = React.createElement;
 const AppActions = require('../actions/AppActions');
 const urlParser = require('url');
-const cli = require('caf_cli');
 
 class DisplayURL extends React.Component {
 
@@ -19,7 +18,7 @@ class DisplayURL extends React.Component {
             window.location && window.location.href) {
             const myURL = urlParser.parse(window.location.href);
             myURL.pathname = '/user/index.html';
-            const userSession = 'session=user' + cli.randomString(8);
+            const userSession = 'session=user';
             myURL.hash = myURL.hash.replace('session=default', userSession);
             myURL.hash = myURL.hash.replace('session=standalone', userSession);
             delete myURL.search; // delete cacheKey
