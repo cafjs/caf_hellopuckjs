@@ -6,6 +6,8 @@ See https://www.cafjs.com
 
 ## Hello Puck.js
 
+Watch a video of this app in [here](https://youtu.be/-7GDIjbcAnw)
+
 Puck.js is a JavaScript Bluetooth Beacon https://www.puck-js.com/ that enables quick prototyping of Bluetooth GATT services.
 
 This example shows a three-way isomorphic app written with `Caf.js`, where the bridging code that interacts with a Puck.js can be run in a Chrome Browser (with Web Bluetooth API calls), or in a Raspberry Pi, or in the Cloud (to generate commands using API introspection).
