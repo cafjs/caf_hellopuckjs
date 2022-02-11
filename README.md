@@ -17,3 +17,7 @@ This example is very similar to the output of the template generator tool:
     cafjs generate hellopuckjs  iotbrowser
 
 It covers functionality common to many Bluetooth devices, e.g., discovery, GATT service invocation, subscribing to notifications, and sharing a device across the Internet with a Reverse Service Worker (RSW).
+
+It is recommended to install the espruino tools to, for example, run scripts under `./puckjs` to configure a Puck.js.
+
+    npm install -g espruino
